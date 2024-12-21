@@ -1,11 +1,10 @@
 import React from 'react'
-import Navbar from './components/Navbar'
+import Hero from './pages/Hero'
 
 function App() {
   return (
-    <div className='bg-black h-screen'>
-      <Navbar />
-
+    <div className='h-screen'>
+      <Hero />
     </div>
   )
 }
